@@ -19,7 +19,10 @@ Do the following:
 
    HINT: no function required
 */
-
+let age = 29;
+if(age > 18);{
+  console.log("TRUE")
+}
 
 
 /*
@@ -33,7 +36,13 @@ Do the following:
 
    HINT: no function required
 */
-
+let firstThing = 0;
+let secondThing = 2;
+if(firstThing === secondThing) {
+  console.log("True");
+} else {
+  console.log("False");
+}
 
 
 
@@ -48,7 +57,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+let year = "1999";
+Number("1999")
+console.log(Number)
 
 
 
@@ -60,10 +71,12 @@ Do the following:
    2. Receive the parameters: a and b
    3. Multiply a and b and return the answer
 */
-
+let num1 = 2
+let num2 = 3
 function multiply(num1, num2){
   return num1 * num2;
 }
+functionMultiply();
 
 
 
@@ -77,10 +90,12 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(dogYears) {
+  if( 7 * dogYears) {
+    console.log(dogYears * 7);
+  }
 }
-
+dogYears(6);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
