@@ -21,9 +21,9 @@ Do the following:
 */
 let votingAge = 18;
 if(votingAge >= 18){
-  console.log(True);
+  console.log(true);
 } else {
-  console.log(False);
+  console.log(false);
 }
 
 
@@ -58,8 +58,8 @@ Do the following:
    HINT: look up the Number method
 */
 let year = "1999";
-Number("1999")
-console.log(Number)
+const converted = Number("1999");
+console.log(converted);
 
 
 
@@ -76,7 +76,7 @@ let num2 = 3
 function multiply(num1, num2){
   return num1 * num2;
 }
-Multiply(2, 3);
+multiply(2, 3);
 
 
 
@@ -91,10 +91,8 @@ Do the following:
 */
 
 function dogYears(dogYears) {
-  if( 7 * dogYears) {
-    console.log(dogYears * 7);
+    return dogYears * 7
   }
-}
 dogYears(6);
 
 
